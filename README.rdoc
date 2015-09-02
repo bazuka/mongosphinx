@@ -4,11 +4,11 @@
 
 This is a fork of http://github.com/burke/mongosphinx with some quick hacks.
 
-This are the hacks:
+These are the hacks:
 
 === Stream XML
 
-Possibility to stream xml instead of process at once. Makes it work with large
+A possibility to stream xml instead of process at once. Makes it work with large
 collections.
 
   namespace :sphinx do
@@ -17,7 +17,7 @@ collections.
     end
   end
 
-This uses MongoDB cursor to better stream collection. Instead of offset. See: http://groups.google.com/group/mongodb-user/browse_thread/thread/35f01db45ea3b0bd/96ebc49b511a6b41?lnk=gst&q=skip#96ebc49b511a6b41
+It uses MongoDB cursor for better stream collection. Instead of the offset. See: http://groups.google.com/group/mongodb-user/browse_thread/thread/35f01db45ea3b0bd/96ebc49b511a6b41?lnk=gst&q=skip#96ebc49b511a6b41
 
 See inline documentation on usage.
 
